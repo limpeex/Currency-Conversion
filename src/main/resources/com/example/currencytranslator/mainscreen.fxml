@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="defaultPane" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.currencytranslator.Mainscreen">
+   <children>
+      <TextField fx:id="textField" layoutX="321.0" layoutY="420.0" prefHeight="26.0" prefWidth="50.0" />
+      <Label fx:id="secondLabel" alignment="CENTER" layoutX="337.0" layoutY="277.0" prefHeight="46.0" prefWidth="327.0" textAlignment="CENTER" textFill="#45ddeb" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="firstLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="277.0" prefHeight="46.0" prefWidth="327.0" textAlignment="CENTER" textFill="#6ce2e4" wrapText="true">
+         <font>
+            <Font name="Consolas" size="24.0" />
+         </font></Label>
+      <ChoiceBox fx:id="secondChoiceBox" layoutX="476.0" layoutY="205.0" prefHeight="25.0" prefWidth="50.0" />
+      <ChoiceBox fx:id="firstChoiceBox" layoutX="147.0" layoutY="205.0" prefHeight="25.0" prefWidth="50.0" />
+      <Button fx:id="translateButton" layoutX="253.0" layoutY="474.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="81.0" prefWidth="185.0" text="Translate" textFill="#16a7c7" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Georgia" size="32.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="600.0" fitWidth="318.0" layoutX="682.0" pickOnBounds="true">
+         <image>
+            <Image url="@200w.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="28.0" layoutY="515.0" prefHeight="46.0" prefWidth="169.0" text="made by limpeex" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+.root {
+    -fx-background-color: #000000; /* Arka planı siyah yap */
+}
+
+.v-box {
+    -fx-background-color: #333333; /* VBox için koyu gri arkaplan */
+}
+
+.label {
+    -fx-text-fill: #ffffff; /* Metin rengi beyaz */
+}
+
+.text-field, .choice-box {
+    -fx-prompt-text-fill: #aaaaaa; /* Input alanlarında açık gri yazı rengi */
+    -fx-border-color: #444444; /* Koyu gri sınır rengi */
+    -fx-border-radius: 5;
+}
+
+.text-field:focused, .choice-box:focused {
+    -fx-border-color: #888888; /* Odaklandığında açık gri sınır */
+}
+
+.check-box {
+    -fx-box-border: transparent;
+    -fx-focus-color: transparent;
+    -fx-text-fill: #ffffff; /* Checkbox metni beyaz */
+}
+
+.choice-box {
+    -fx-background-color: #333333; /* ChoiceBox için koyu gri arka plan */
+    -fx-mark-color: #ffffff; /* Açılır menü oku beyaz */
+}
+
+.button {
+    -fx-background-color: #666666; /* Daha nötr gri butonlar */
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #888888; /* Hover durumunda daha açık gri */
+}
